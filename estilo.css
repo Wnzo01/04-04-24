@@ -1,0 +1,45 @@
+*{
+    background: rgb(79, 73, 187);
+    /*RIVISAR*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
+
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caja{
+    border: 10px solid black;
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    transition: all.5s ease-in-out;
+}
+
+.caja:hover{
+    color: red;
+    background-color: green;
+
+    cursor: pointer;
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5); */
+    /* transform: skew(45deg); */
+    transform: translate(40px, 40px);
+
+    box-shadow: 14px 15px 14px 1px rgba(0,0,0,0.91);
+}
+
+.caja:active{
+    background-color: green;
+}
